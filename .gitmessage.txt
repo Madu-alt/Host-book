@@ -1,0 +1,15 @@
+# <tipo>(<escopo opcional>): <descrição curta no imperativo>
+# Exemplo: feat(auth): adiciona login com token JWT
+
+# [Corpo opcional: explique O QUE e POR QUE mudou, não o COMO]
+
+# [Rodapé opcional: referências de issues, ex: Closes #123]
+
+# --- GUIA RÁPIDO DE TIPOS ---
+# feat:     Nova funcionalidade
+# fix:      Correção de bug
+# docs:     Alteração apenas na documentação
+# style:    Formatação, espaços, ponto e vírgula (não altera lógica)
+# refactor: Refatoração de código (nem corrige bug, nem adiciona feature)
+# test:     Adição ou correção de testes
+# chore:    Atualização de tarefas de build, dependências, configs
