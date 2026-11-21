@@ -1,13 +1,8 @@
 body {
     background: hsl(35, 60%, 96%);
-}
-
- .attribution {
-     font-size: 0.6875rem; text-align: center; 
-    }
-
- .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -36,12 +31,13 @@ main {
     width: 250px;
     border-right: 1px solid hsl(36, 22%, 86%);
     padding-right: 20px;
+    height: 100%;
 }
 
 .dm-sans-regular {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -87,17 +83,18 @@ main {
 }
 
 #containerSection {
-    height: 60%;
+    height: 40%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-content: flex-start;
-    padding: 5px 0;
+    padding: 5px 25px;
 }
 
 #container-before-line {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 50px;
-    height: 700px;
+    height: 800px;
 }
