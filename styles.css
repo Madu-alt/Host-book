@@ -94,7 +94,7 @@ main {
 #containerSection {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 25px;
   padding: 10px 0;
 }
 
@@ -145,6 +145,9 @@ main {
 
 #itemIcon {
   display: inline-flex;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  padding: 10px 20px;
 }
 
 #celsius {
