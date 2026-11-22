@@ -157,21 +157,23 @@ main {
     margin-bottom: 24px;
     padding: 10px 20px;
     line-height: 1.4;
-    background-color: hsl(44, 84%, 75%);
+    background-color: hsl(45, 100%, 74%);
     border-radius: 16px;
     position: relative;
     overflow: hidden;
     margin-top: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 #sidebar-footer {
     margin-top: 16px;
     line-height: 1.4;
     font-size: 0.85rem;
+    color: hsl(33, 22%, 20%);
 }
 
 .pWeather {
-    color: hsl(33, 17%, 41%);
+    color: hsl(33, 22%, 20%);
 }
 
 #sunIcon {
