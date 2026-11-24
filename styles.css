@@ -187,3 +187,9 @@ main {
   height: 68px;
   pointer-events: none;
 }
+
+#titleP {
+  color: hsl(33, 22%, 20%);
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+}
