@@ -125,7 +125,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   gap: 50px;
-  min-height: auto
+  min-height: auto;
 }
 
 #notification {
@@ -192,7 +192,7 @@ main {
   color: hsl(33, 22%, 20%);
   font-size: 0.8rem;
   letter-spacing: 3px;
-  margin: 0;
+  margin: 25px 0 0 0;
 }
 
 #bigTitle {
@@ -214,3 +214,25 @@ main {
   margin-left: 10px;
   gap: 6px;
 }
+
+#top {
+  display: flex;
+}
+
+#printButton, #calendarButton{
+  border-radius: 25px;
+  padding: 13px 30px;
+  font-size: 1rem;
+}
+
+#printButton {
+  border: 0.8px solid hsl(33, 17%, 41%);
+  background: hsl(35, 60%, 96%);
+}
+
+#calendarButton {
+  border: 0.8px solid hsl(33, 15%, 15%);
+  background: hsl(33, 15%, 15%);
+  color: hsl(0, 0%, 100%);
+}
+
