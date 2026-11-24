@@ -236,3 +236,14 @@ main {
   color: hsl(0, 0%, 100%);
 }
 
+#buttonConteiner {
+  margin: 35px 0 0 0;
+  display: inline-flex;
+  gap: 15px;
+}
+
+#top {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
