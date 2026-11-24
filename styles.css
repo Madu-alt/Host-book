@@ -16,7 +16,7 @@ body {
   font-family: "Fraunces", serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  font-style: semibold;
+  font-weight: bold;
   font-variation-settings:
     "SOFT" 0,
     "WONK" 0;
@@ -192,4 +192,25 @@ main {
   color: hsl(33, 22%, 20%);
   font-size: 0.8rem;
   letter-spacing: 3px;
+  margin: 0;
+}
+
+#bigTitle {
+  color: hsl(33, 15%, 15%);
+  font-size: 2.1rem;
+  margin: 0;
+}
+
+#lucia{
+  color: hsl(15, 74%, 41%);
+  font-style: italic;
+}
+
+#titleMain {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  margin-left: 10px;
+  gap: 6px;
 }
